@@ -1,14 +1,12 @@
+import React from 'react';
+
 function MainContent() {
-    return (
-      <div style={{ backgroundColor: '#f0f0f0', padding: '20px' }}>
-        <h2 style={{ color: 'darkgreen' }}>Favorite Cities</h2>
-        <ul>
-          <li style={{ marginBottom: '10px' }}>Paris</li>
-          <li style={{ marginBottom: '10px' }}>Tokyo</li>
-          <li style={{ marginBottom: '10px' }}>New York</li>
-        </ul>
-      </div>
-    );
-  }
-  
-  export default MainContent;
+  return (
+    <div style={{ backgroundColor: 'lightgray', padding: '20px' }}>
+      <h2 style={{ color: 'darkred' }}>Main Content</h2>
+      <p style={{ lineHeight: '1.5' }}>This is the main content of the page.</p>
+    </div>
+  );
+}
+
+export default MainContent;
